@@ -32,9 +32,9 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 text-2xl font-bold hover:opacity-80 transition-opacity">
+        <button onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="flex items-center gap-2 text-2xl font-bold hover:opacity-80 transition-opacity">
           <Code2 className="w-8 h-8 text-accent" />
-        </Link>
+        </button>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8">
