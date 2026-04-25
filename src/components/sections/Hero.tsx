@@ -22,15 +22,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="max-w-4xl mx-auto"
         >
-          <motion.div 
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="inline-block px-4 py-1.5 rounded-full border border-accent/30 bg-accent/10 text-accent text-sm font-medium mb-6"
-          >
-            MG University MCA 1st Rank Holder (2021-2023)
-          </motion.div>
-          
+
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -48,6 +40,15 @@ export default function Hero() {
           >
             Java Developer <span className="text-accent font-medium">&</span> Fintech Specialist
           </motion.h2>
+
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.45 }}
+            className="inline-block px-4 py-1.5 rounded-full border border-accent/30 bg-accent/10 text-accent text-sm font-medium mb-8"
+          >
+            MG University MCA 1st Rank Holder (2021-2023)
+          </motion.div>
           
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

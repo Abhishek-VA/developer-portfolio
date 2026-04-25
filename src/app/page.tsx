@@ -2,7 +2,6 @@ import Hero from "@/components/sections/Hero";
 import Experience from "@/components/sections/Experience";
 import Projects from "@/components/sections/Projects";
 import TechStack from "@/components/sections/TechStack";
-import ArchitectureViewer from "@/components/sections/ArchitectureViewer";
 import Contact from "@/components/sections/Contact";
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
       <Experience />
       <Projects />
       <TechStack />
-      <ArchitectureViewer />
       <Contact />
       
       <footer className="py-8 text-center text-foreground/50 text-sm border-t border-card-border mt-20">

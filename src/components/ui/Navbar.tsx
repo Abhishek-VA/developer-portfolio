@@ -19,7 +19,6 @@ export default function Navbar() {
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "Tech Stack", href: "#tech-stack" },
-    { name: "Architecture", href: "#architecture" },
     { name: "Contact", href: "#contact" },
   ];
 
